@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b2a984ab838e4608a09d39a7ac856192") format("truetype"),
+url("./flaticon.woff?b2a984ab838e4608a09d39a7ac856192") format("woff"),
+url("./flaticon.woff2?b2a984ab838e4608a09d39a7ac856192") format("woff2"),
+url("./flaticon.eot?b2a984ab838e4608a09d39a7ac856192#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b2a984ab838e4608a09d39a7ac856192#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "calendar-1": "\f101",
+    "calendar-2": "\f102",
+    "calendar": "\f103",
+    "chat-1": "\f104",
+    "chat-2": "\f105",
+    "check-mark": "\f106",
+    "coding": "\f107",
+    "conversation": "\f108",
+    "event": "\f109",
+    "free-time": "\f10a",
+    "mobile-app-1": "\f10b",
+    "mobile-app-2": "\f10c",
+    "mobile-app-3": "\f10d",
+    "mobile-app": "\f10e",
+    "qr-code": "\f10f",
+    "smartphone-1": "\f110",
+    "smartphone-2": "\f111",
+    "speech-bubble": "\f112",
+    "test": "\f113",
+);
+
+.flaticon-calendar-1:before {
+    content: map-get($flaticon-map, "calendar-1");
+}
+.flaticon-calendar-2:before {
+    content: map-get($flaticon-map, "calendar-2");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-chat-1:before {
+    content: map-get($flaticon-map, "chat-1");
+}
+.flaticon-chat-2:before {
+    content: map-get($flaticon-map, "chat-2");
+}
+.flaticon-check-mark:before {
+    content: map-get($flaticon-map, "check-mark");
+}
+.flaticon-coding:before {
+    content: map-get($flaticon-map, "coding");
+}
+.flaticon-conversation:before {
+    content: map-get($flaticon-map, "conversation");
+}
+.flaticon-event:before {
+    content: map-get($flaticon-map, "event");
+}
+.flaticon-free-time:before {
+    content: map-get($flaticon-map, "free-time");
+}
+.flaticon-mobile-app-1:before {
+    content: map-get($flaticon-map, "mobile-app-1");
+}
+.flaticon-mobile-app-2:before {
+    content: map-get($flaticon-map, "mobile-app-2");
+}
+.flaticon-mobile-app-3:before {
+    content: map-get($flaticon-map, "mobile-app-3");
+}
+.flaticon-mobile-app:before {
+    content: map-get($flaticon-map, "mobile-app");
+}
+.flaticon-qr-code:before {
+    content: map-get($flaticon-map, "qr-code");
+}
+.flaticon-smartphone-1:before {
+    content: map-get($flaticon-map, "smartphone-1");
+}
+.flaticon-smartphone-2:before {
+    content: map-get($flaticon-map, "smartphone-2");
+}
+.flaticon-speech-bubble:before {
+    content: map-get($flaticon-map, "speech-bubble");
+}
+.flaticon-test:before {
+    content: map-get($flaticon-map, "test");
+}

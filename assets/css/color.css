@@ -1,0 +1,35 @@
+
+/*==================================
+Colors
+==================================*/
+:root{
+	--theme-paragraph-color: #6d7175;
+}
+
+:root{
+	--theme-darkblue-color: #2a364e;
+}
+:root{
+	--theme-light-color: #f3f9f5;
+}
+:root{
+	--theme-gray-color: #efefef;
+}
+:root{
+	--theme-primary-color: #24bd7e; 
+}
+
+:root{
+	--theme-white-color: #ffff; 
+}
+
+/*==================================
+Fonts
+==================================*/
+:root {
+	--theme-general-font: 'Muli', sans-serif; /* Font use for normal text and general text */
+}
+
+:root {
+	--theme-highlight-font: 'Rajdhani', sans-serif;  /* Font used in title or special area */
+}
